@@ -1,0 +1,48 @@
+{
+  "window.zoomLevel": 0,
+  "window.commandCenter": false,
+  "window.newWindowDimensions": "maximized",
+  "editor.guides.indentation": false, // indentacion codigo
+  "editor.glyphMargin": true, // margen barra numero linea
+  "editor.scrollbar.horizontal": "hidden", // ocultar barra horizontal
+  "editor.scrollbar.vertical": "hidden", // ocultar barra vertical 
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.lineNumbers": "relative",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "500",
+  "editor.fontFamily": "VictorMono Nerd Font",
+  "editor.lineHeight": 30,
+  //  "editor.stickyScroll.enabled": false,
+  //  "editor.cursorSurroundingLines": 30,
+  "workbench.statusBar.visible": false, // ocultar status bar
+  "workbench.tree.renderIndentGuides": "none",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.4,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.icons": false,
+  "breadcrumbs.symbolPath": "off",
+  "zenMode.hideLineNumbers": false,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/Cristian/.config/nvim-cursor/init.lua",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "vscode-neovim.compositeKeys": {
+    "kj": {
+      "command": "vscode-neovim.escape",
+    },
+  },
+  "projectManager.git.baseFolders": [
+    "/Users/Cristian/projects/xepelin"
+  ],
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.colorTheme": "Cursor Dark Midnight",
+  "editor.formatOnSave": true
+}
