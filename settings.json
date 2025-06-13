@@ -21,7 +21,7 @@
   "workbench.statusBar.visible": false,
   "workbench.tree.renderIndentGuides": "none",
   "terminal.integrated.fontSize": 13, // 16
-  "terminal.integrated.lineHeight": 1.3, //1.4 
+  "terminal.integrated.lineHeight": 1.5, //1.4 
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",
   "breadcrumbs.icons": false,
@@ -44,19 +44,12 @@
   "git.confirmSync": false,
   "git.autofetch": true,
   "editor.formatOnSave": true,
-  "workbench.colorTheme": "Mayukai Mono",
+  "workbench.colorTheme": "Cursor Dark Midnight",
   "window.titleBarStyle": "custom",
-  // custom para el theme Mayukai Mono 
   "workbench.colorCustomizations": {
-    "editorGroupHeader.tabsBackground": "#151823",
-    "tab.inactiveBackground": "#151823",
-    "titleBar.activeBackground": "#151823",
-    "titleBar.inactiveBackground": "#151823",
-    "titleBar.activeForeground": "#5f6676",
-    "titleBar.inactiveForeground": "#5f6676",
-    "editorGroup.border": "#262f3f",
-    "terminal.background": "#111520",
-    "panel.background": "#111520",
+    "editor.background": "#1a1c21",
+    "editorGutter.background": "#1a1c21",
+    "breadcrumb.background": "#1a1c21"
   }
 }
 
