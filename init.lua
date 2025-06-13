@@ -91,14 +91,3 @@ end)
 
 map("n", "yy", '"+yy')
 map("v", "y", '"+y')
-
-vim.api.nvim_create_user_command("Notas", function()
-	vim.cmd("edit /Users/Cristian/projects/xepelin/dayli.txt")
-end, {})
-
-vim.api.nvim_create_user_command("Onboarding", function()
-	vim.cmd("edit /Users/Cristian/projects/xepelin/onboarding.txt")
-end, {})
-
-vim.keymap.set("n", "<leader>no", ":Notas<CR>")
-vim.keymap.set("n", "<leader>on", ":Onboarding<CR>")
