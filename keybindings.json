@@ -240,5 +240,12 @@
     "key": "ctrl+;",
     "command": "workbench.action.showAllEditors"
   },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "fu\u000D"
+    },
+    "when": "terminalFocus"
+  }
 ]
-
