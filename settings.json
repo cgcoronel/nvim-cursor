@@ -11,7 +11,7 @@
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
-  "editor.lineNumbers": "relative",
+  "editor.lineNumbers": "on", // "relative",
   "editor.fontSize": 13, // 16
   "editor.fontWeight": "500",
   "editor.fontFamily": "VictorMono Nerd Font",
@@ -54,8 +54,11 @@
     "tab.activeBorderTop": "#25272b",
     "titleBar.border": "#1a1c21",
     "tab.border": "#1a1c21",
+    //
+    "editorLineNumber.activeForeground": "#ffffff" // numero de linea
   },
   "cursor.composer.textSizeScale": 1.15,
   "workbench.layoutControl.enabled": false,
+  "workbench.editor.showTabs": "single", // "multiple",
   // "workbench.iconTheme": null
 }

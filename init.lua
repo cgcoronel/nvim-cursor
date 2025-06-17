@@ -81,6 +81,10 @@ map("n", "<leader>e", function()
 	vim.cmd('call VSCodeNotify("vsnetrw.open")')
 end, { silent = true })
 
+map("n", "<leader>e", function()
+	vim.cmd('call VSCodeNotify("vsnetrw.open")')
+end, { silent = true })
+
 map("n", "<leader>d", function()
 	vim.cmd('call VSCodeNotify("workbench.view.scm")')
 end)
