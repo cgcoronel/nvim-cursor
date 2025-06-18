@@ -237,7 +237,7 @@
     "command": "-workbench.action.showAllEditors"
   },
   {
-    "key": "ctrl+;",
+    "key": "ctrl+i",
     "command": "workbench.action.showAllEditors"
   },
   {
