@@ -55,10 +55,14 @@
     "titleBar.border": "#1a1c21",
     "tab.border": "#1a1c21",
     //
-    "editorLineNumber.activeForeground": "#ffffff" // numero de linea
+    "editorLineNumber.activeForeground": "#ffffff", // numero de linea
+    //
+    "editor.lineHighlightBackground": "#00000000",
+    "editor.lineHighlightBorder": "#00000000",
   },
   "cursor.composer.textSizeScale": 1.15,
   "workbench.layoutControl.enabled": false,
-  "workbench.editor.showTabs": "single", // "multiple",
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.enablePreview": false, // "multiple",
   // "workbench.iconTheme": null
 }
