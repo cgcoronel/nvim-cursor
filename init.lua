@@ -91,7 +91,3 @@ end)
 
 map("n", "yy", '"+yy')
 map("v", "y", '"+y')
-
-map('n', '<C-d>', '<C-d>zz')
-map('n', '<C-u>', '<C-u>zz')
-
