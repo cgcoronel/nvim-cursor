@@ -33,13 +33,6 @@ map("n", "<S-j>", ":m .+1<CR>==", opts)
 map("v", "<S-j>", ":m '>+1<CR>gv=gv", opts)
 map("v", "<S-k>", ":m '<-2<CR>gv=gv", opts)
 
--- copy file path
--- map("n", "cp", ':let @+ = expand("%") <bar> echo "copied " . expand("%")<CR>', opts)
-
--- map("v", "p", '"_dP')
-
--- map("n", "<leader>D", ":windo diffthis<cr>", opts)
-
 map("n", "S", function()
 	vim.cmd('call VSCodeNotify("workbench.action.splitEditorDown")')
 end)
@@ -91,3 +84,8 @@ end)
 
 map("n", "yy", '"+yy')
 map("v", "y", '"+y')
+
+vim.keymap.set("n", "<leader>pr", function()
+	vim.cmd('edit /Users/Cristian/projects/xepelin/temp/pr.diff')
+  end)
+
