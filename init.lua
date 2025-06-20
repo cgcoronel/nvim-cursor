@@ -7,25 +7,11 @@ map({ "n", "v" }, "<Space>", "<NOP>", opts)
 map("i", "kj", "<Esc>", opts)
 map("n", "<leader>w", vim.cmd.w, opts)
 
--- move between windows
-map("n", "<C-L>", "<C-W><C-L>")
-map("n", "<C-H>", "<C-W><C-H>")
-map("i", "<C-L>", "<Esc><C-W><C-L>")
-map("i", "<C-H>", "<Esc><C-W><C-H>")
-
-map("n", "<C-J>", "<C-W><C-J>")
-map("n", "<C-K>", "<C-W><C-K>")
-map("i", "<C-J>", "<Esc><C-W><C-J>")
-map("i", "<C-K>", "<Esc><C-W><C-K>")
-
 -- move start and end of line
 map("n", "gl", "$")
 map("n", "gh", "0")
 map("v", "gl", "$")
 map("v", "gh", "0")
-
--- clean search
-map("n", "<leader><space>", ":noh<CR>", opts)
 
 -- move lines up and down
 map("n", "<S-k>", ":m .-2<CR>==", opts)
@@ -84,8 +70,3 @@ end)
 
 map("n", "yy", '"+yy')
 map("v", "y", '"+y')
-
-vim.keymap.set("n", "<leader>pr", function()
-	vim.cmd('edit /Users/Cristian/projects/xepelin/temp/pr.diff')
-  end)
-
