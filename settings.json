@@ -10,6 +10,7 @@
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
   "editor.smoothScrolling": true,
   "editor.lineNumbers": "on", // "relative",
   "editor.fontSize": 13, // 16
@@ -63,6 +64,8 @@
   "cursor.composer.textSizeScale": 1.15,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.showTabs": "single",
-  "workbench.editor.enablePreview": false, // "multiple",
+  "workbench.editor.enablePreview": false,
+  "cursor.composer.shouldAutoScrollToBottom": false, // "multiple",
   // "workbench.iconTheme": null
+  "files.simpleDialog.enable": true,
 }
