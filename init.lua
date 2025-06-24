@@ -70,3 +70,13 @@ end)
 
 map("n", "yy", '"+yy')
 map("v", "y", '"+y')
+
+map("n", "<cr>", function()
+	vim.cmd('call VSCodeNotify("workbench.action.editor.nextChange")')
+end)
+
+map("n", "<bs>", function()
+	vim.cmd('call VSCodeNotify("workbench.action.editor.previousChange")')
+end)
+
+
