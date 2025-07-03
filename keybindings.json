@@ -269,13 +269,24 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+m",
+    "key": "ctrl+.",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+.",
+    "key": "ctrl+m",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+n",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
   }
+  
 ]

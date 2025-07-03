@@ -1,6 +1,5 @@
 {
-  "window.zoomLevel": 1, // 0
-  "window.commandCenter": false,
+  "window.zoomLevel": 1,
   "window.newWindowDimensions": "maximized",
   "editor.guides.indentation": false, // indentacion codigo
   "editor.glyphMargin": true, // margen barra numero linea
@@ -18,7 +17,7 @@
   "editor.fontFamily": "VictorMono Nerd Font",
   "editor.lineHeight": 26, // 30
   "editor.stickyScroll.enabled": false,
-  // "editor.cursorSurroundingLines": 30,
+//   "editor.cursorSurroundingLines": 30,
   "workbench.statusBar.visible": false,
   "workbench.tree.renderIndentGuides": "none",
   "terminal.integrated.fontSize": 13, // 16
@@ -60,12 +59,27 @@
     //
     "editor.lineHighlightBackground": "#00000000",
     "editor.lineHighlightBorder": "#00000000",
+    //
+    "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
+    "panelTitle.inactiveForeground": "#7b88a1", // texto de otros paneles no activos
   },
   "cursor.composer.textSizeScale": 1.15,
-  "workbench.layoutControl.enabled": false,
   "workbench.editor.showTabs": "single",
-  "workbench.editor.enablePreview": false,
   "cursor.composer.shouldAutoScrollToBottom": false, // "multiple",
-  // "workbench.iconTheme": null
   "files.simpleDialog.enable": true,
+  "git.openRepositoryInParentFolders": "never",
+  
+  "editor.rulers": [],
+  "editor.wordWrap": "on",
+  "prettier.printWidth": 999,
+  "[typescript]": {
+    "editor.rulers": []
+  },
+  "[javascript]": {
+   "editor.rulers": []
+  },
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.tabs.location":"left" 
 }
