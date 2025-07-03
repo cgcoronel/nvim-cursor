@@ -81,5 +81,6 @@
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
-  "terminal.integrated.tabs.location":"left" 
+  "terminal.integrated.tabs.location":"left",
+  "terminal.integrated.scrollback": 100000
 }
