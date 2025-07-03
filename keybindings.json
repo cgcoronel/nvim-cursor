@@ -267,5 +267,15 @@
       "value": 10
     },
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+.",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
   }
 ]
