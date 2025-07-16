@@ -15,7 +15,7 @@
   "editor.fontSize": 13, // 16
   "editor.fontWeight": "500",
   "editor.fontFamily": "VictorMono Nerd Font",
-  "editor.lineHeight": 26, // 30
+  "editor.lineHeight": 25, // 30
   "editor.stickyScroll.enabled": false,
 //   "editor.cursorSurroundingLines": 30,
   "workbench.statusBar.visible": false,
@@ -68,19 +68,20 @@
   "cursor.composer.shouldAutoScrollToBottom": false, // "multiple",
   "files.simpleDialog.enable": true,
   "git.openRepositoryInParentFolders": "never",
-  
   "editor.rulers": [],
-  "editor.wordWrap": "on",
-  "prettier.printWidth": 999,
   "[typescript]": {
     "editor.rulers": []
   },
   "[javascript]": {
-   "editor.rulers": []
+    "editor.rulers": []
   },
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
-  "terminal.integrated.tabs.location":"left",
-  "terminal.integrated.scrollback": 100000
+  "terminal.integrated.tabs.location":"left" ,
+  "terminal.integrated.scrollback": 100000,
+  "workbench.panel.showLabels": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
