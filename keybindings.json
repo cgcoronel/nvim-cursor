@@ -89,7 +89,7 @@
   },
   {
     "key": "cmd+W",
-    "command": "workbench.action.closeWindow",
+    "command": "workbench.action.closeWindow"
   },
   {
     "key": "cmd+w",
@@ -287,6 +287,24 @@
     "key": "cmd+w",
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "git.openChange",
+    "when": "config.git.enabled && scmActiveResourceHasChanges && !git.missing && !isInDiffEditor && !isMergeEditor && resourceScheme == 'file' && gitOpenRepositoryCount != '0'"
+  },
+  {
+    "key": "cmd+q",
+    "command": "workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "o",
+    "command": "nerdtree.openFileNewWindow",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "t",
+    "command": "-nerdtree.openFileNewWindow",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
   }
-  
 ]

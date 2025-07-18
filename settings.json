@@ -4,7 +4,7 @@
   "editor.guides.indentation": false, // indentacion codigo
   "editor.glyphMargin": true, // margen barra numero linea
   "editor.scrollbar.horizontal": "hidden", // ocultar barra horizontal
-  "editor.scrollbar.vertical": "hidden", // ocultar barra vertical 
+  "editor.scrollbar.vertical": "hidden", // ocultar barra vertical
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
@@ -17,11 +17,11 @@
   "editor.fontFamily": "VictorMono Nerd Font",
   "editor.lineHeight": 25, // 30
   "editor.stickyScroll.enabled": false,
-//   "editor.cursorSurroundingLines": 30,
+  //   "editor.cursorSurroundingLines": 30,
   "workbench.statusBar.visible": false,
   "workbench.tree.renderIndentGuides": "none",
   "terminal.integrated.fontSize": 13, // 16
-  "terminal.integrated.lineHeight": 1.5, //1.4 
+  "terminal.integrated.lineHeight": 1.5, //1.4
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",
   "breadcrumbs.icons": false,
@@ -35,12 +35,10 @@
   "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
   "vscode-neovim.compositeKeys": {
     "kj": {
-      "command": "vscode-neovim.escape",
-    },
+      "command": "vscode-neovim.escape"
+    }
   },
-  "projectManager.git.baseFolders": [
-    "/Users/Cristian/projects/xepelin"
-  ],
+  "projectManager.git.baseFolders": ["/Users/Cristian/projects/xepelin"],
   "git.confirmSync": false,
   "git.autofetch": true,
   "editor.formatOnSave": true,
@@ -61,7 +59,7 @@
     "editor.lineHighlightBorder": "#00000000",
     //
     "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
-    "panelTitle.inactiveForeground": "#7b88a1", // texto de otros paneles no activos
+    "panelTitle.inactiveForeground": "#7b88a1" // texto de otros paneles no activos
   },
   "cursor.composer.textSizeScale": 1.15,
   "workbench.editor.showTabs": "single",
@@ -78,7 +76,7 @@
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
-  "terminal.integrated.tabs.location":"left" ,
+  "terminal.integrated.tabs.location": "left",
   "terminal.integrated.scrollback": 100000,
   "workbench.panel.showLabels": false,
   "[json]": {
