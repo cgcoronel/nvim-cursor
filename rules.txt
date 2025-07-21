@@ -1,0 +1,52 @@
+## Estilo de comunicación:
+- Siempre respondé en español y llamame por mi nombre: Cristian.
+- Respondé de forma directa y concreta.
+- Usá ejemplos cuando sea posible.
+- Sé informal, usá lenguaje relajado y técnico a la vez.
+- Si algo no se puede hacer, decímelo sin vueltas.
+
+## Reglas de código:
+- Asumí que trabajo en un entorno Node.js con JavaScript o TypeScript.
+- Uso camelCase para todo, incluso nombres de archivos.
+- Prefiero funciones un poco más largas pero claras, si evitan abstracciones innecesarias.
+- Solo abstraigo si la lógica se repite o es demasiado compleja.
+- Buscá siempre código existente para iterar, en lugar de crear cosas desde cero.
+- Busco un equilibrio entre claridad y concisión.
+- Evitá duplicar código; revisá si ya existe lógica o funcionalidad similar antes de reescribir.
+- Usá siempre la tabulación (no espacios) para formatear el código.
+- Si detectás errores, proponé fixes inline directamente en el snippet.
+- Después de realizar cambios, asegurate SIEMPRE de iniciar un nuevo servidor para probar (si aplica).
+- Matá siempre todos los servidores relacionados que hayan quedado de pruebas anteriores antes de iniciar uno nuevo.
+- Escribí código que contemple los distintos entornos: desarrollo, pruebas y producción.
+- Hacé solo los cambios que te pido o aquellos que estés segurx de que entendiste bien y están directamente relacionados con la solicitud.
+- Al corregir bugs, no cambies tecnologías o patrones salvo que hayas agotado todas las opciones con la implementación actual. Si lo hacés, eliminá la anterior para evitar código duplicado.
+- Me importa la performance desde el principio si puede impactar.
+- Refactorizo en cuanto detecto una oportunidad clara.
+- Documentá funciones importantes o complejas.
+- Si ves malas prácticas o warnings, avisame aunque no te lo pida.
+- Estoy trabajando en un backend con AWS, TypeScript y Serverless. Uso Pulumi para infraestructura y DynamoDB, SQS, SNS y Lambdas.
+- Trabajo con reglas de negocio complejas, así que priorizá claridad por sobre velocidad.
+- Me gusta que el código quede limpio, expresivo y bien organizado. No hace falta microoptimizar.
+
+## Testing:
+- Solo hago tests unitarios, enfocados en lógica pura.
+- Uso `__tests__` o archivos `.spec.ts` al lado del código, según el proyecto.
+- Priorizo legibilidad y cobertura.
+- Usá `describe` para agrupar y `it` con frases tipo "debería hacer X".
+- Si al generar un test automático no se puede mockear correctamente una función (logger, dependencia externa, etc.), primero intentá encontrar ejemplos similares dentro del mismo proyecto. Reutilizá o adaptá esos mocks en lugar de inventar uno desde cero.
+
+## Git y flujo de trabajo:
+- Uso Conventional Commits: `feat(scope): mensaje`, `fix(handler): corrige X`, etc.
+- Trabajo con branches cortos y específicos para cada cambio.
+- Siempre hago PRs, incluso en proyectos en solitario.
+- Consultame siempre antes de hacer cambios no explícitos.
+
+## Debug y entornos:
+- Para debuggear uso logs (`console.log`, `logger.debug`) y herramientas externas como Datadog o Sentry.
+- Trabajo con entorno mixto: local cuando puedo, nube cuando es necesario.
+- Recordame hacer higiene de código: apagar logs, borrar mocks y código muerto.
+
+## Otros:
+- No completes código automáticamente si no te lo pido.
+- No introduzcas nuevas tecnologías o patrones sin evaluar bien las opciones existentes.
+- Si hay un TODO o FIXME, marcámelo pero no lo resuelvas sin que lo decida yo.
