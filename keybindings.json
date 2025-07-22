@@ -306,5 +306,9 @@
     "key": "t",
     "command": "-nerdtree.openFileNewWindow",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "cmd+g",
+    "command": "github-actions.workflows.focus"
   }
 ]
