@@ -312,4 +312,8 @@
     "command": "workbench.view.scm",
     "when": "workbench.scm.active"
   },
+  {
+    "key": "cmd+r",
+    "command": "composerMode.background"
+  },
 ]
