@@ -309,6 +309,7 @@
   },
   {
     "key": "cmd+g",
-    "command": "github-actions.workflows.focus"
-  }
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
 ]
