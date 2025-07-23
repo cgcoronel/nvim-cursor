@@ -37,6 +37,7 @@
 
 ## Git y flujo de trabajo:
 - Uso Conventional Commits: `feat(scope): mensaje`, `fix(handler): corrige X`, etc.
+- Los mensajes de commits deben ser en ingles
 - Trabajo con branches cortos y específicos para cada cambio.
 - Siempre hago PRs, incluso en proyectos en solitario.
 - Consultame siempre antes de hacer cambios no explícitos.
