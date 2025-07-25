@@ -28,6 +28,16 @@
 - Trabajo con reglas de negocio complejas, así que priorizá claridad por sobre velocidad.
 - Me gusta que el código quede limpio, expresivo y bien organizado. No hace falta microoptimizar.
 
+## Regla general para revisión de código (PRs / Code Review)
+Al revisar un pull request, prestá atención a lo siguiente:
+- Posibles bugs o lógica incorrecta  
+- Oportunidades de mejora o refactorización  
+- Código que podría ser más limpio o legible  
+- Nombres ambiguos, intención poco clara o falta de contexto  
+- Casos límite que no estén contemplados  
+
+Sé minucioso/a pero conciso/a.
+
 ## Testing:
 - Solo hago tests unitarios, enfocados en lógica pura.
 - Uso `__tests__` o archivos `.spec.ts` al lado del código, según el proyecto.
