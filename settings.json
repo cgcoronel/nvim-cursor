@@ -46,9 +46,6 @@
   "editor.formatOnSave": true,
   "window.titleBarStyle": "custom",
   "workbench.colorCustomizations": {
-    // Aura dark 
-    "panel.border": "#00000000"
-
   // Cursor theme darkmidnight  
   //    "workbench.colorCustomizations": {
   //      "editor.background": "#1a1c21",
