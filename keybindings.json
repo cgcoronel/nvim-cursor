@@ -311,4 +311,9 @@
     "key": "cmd+r",
     "command": "composerMode.background"
   },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusLeftGroup",
+    "when": "composerFocused && !editorTextFocus"
+  },
 ]
