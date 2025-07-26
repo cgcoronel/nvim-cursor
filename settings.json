@@ -1,5 +1,13 @@
 {
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1.8,
+  "editor.fontFamily": "VictorMono Nerd Font",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 22,
+  "editor.letterSpacing": 0.3,
+  "editor.fontWeight": "500",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.lineHeight": 1.4,
   "window.newWindowDimensions": "maximized",
   "editor.guides.indentation": false, // indentacion codigo
   "editor.glyphMargin": true, // margen barra numero linea
@@ -12,16 +20,8 @@
   "editor.cursorBlinking": "phase",
   "editor.smoothScrolling": true,
   "editor.lineNumbers": "on", // "relative",
-  "editor.fontSize": 13, // 16
-  "editor.fontWeight": "500",
-  "editor.fontFamily": "VictorMono Nerd Font",
-  "editor.lineHeight": 25, // 30
   "editor.stickyScroll.enabled": false,
-  //   "editor.cursorSurroundingLines": 30,
-  "workbench.statusBar.visible": false,
   "workbench.tree.renderIndentGuides": "none",
-  "terminal.integrated.fontSize": 13, // 16
-  "terminal.integrated.lineHeight": 1.5, //1.4
   "breadcrumbs.enabled": true,
   "breadcrumbs.filePath": "on",
   "breadcrumbs.icons": false,
@@ -38,48 +38,57 @@
       "command": "vscode-neovim.escape"
     }
   },
-  "projectManager.git.baseFolders": ["/Users/Cristian/projects/xepelin"],
+  "projectManager.git.baseFolders": [
+    "/Users/Cristian/projects/xepelin"
+  ],
   "git.confirmSync": false,
   "git.autofetch": true,
   "editor.formatOnSave": true,
-  "workbench.colorTheme": "Cursor Dark Midnight",
   "window.titleBarStyle": "custom",
   "workbench.colorCustomizations": {
-    "editor.background": "#1a1c21",
-    "editorGutter.background": "#1a1c21",
-    "breadcrumb.background": "#1a1c21",
-    //
-    "tab.activeBorderTop": "#25272b",
-    "titleBar.border": "#1a1c21",
-    "tab.border": "#1a1c21",
-    //
-    "editorLineNumber.activeForeground": "#ffffff", // numero de linea
-    //
-    "editor.lineHighlightBackground": "#00000000",
-    "editor.lineHighlightBorder": "#00000000",
-    //
-    "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
-    "panelTitle.inactiveForeground": "#7b88a1" // texto de otros paneles no activos
-  },
+    // Aura dark 
+    "panel.border": "#00000000"
+
+  // Cursor theme darkmidnight  
+  //    "workbench.colorCustomizations": {
+  //      "editor.background": "#1a1c21",
+  //      "editorGutter.background": "#1a1c21",
+  //      "breadcrumb.background": "#1a1c21",
+  //      //
+  //      "tab.activeBorderTop": "#25272b",
+  //      "titleBar.border": "#1a1c21",
+  //      "tab.border": "#1a1c21",
+  //      //
+  //      "editorLineNumber.activeForeground": "#ffffff", // numero de linea
+  //      //
+  //      "editor.lineHighlightBackground": "#00000000",
+  //      "editor.lineHighlightBorder": "#00000000",
+  //      //
+  //      "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
+  //      "panelTitle.inactiveForeground": "#7b88a1" // texto de otros paneles no activos
+     },
   "cursor.composer.textSizeScale": 1.15,
   "workbench.editor.showTabs": "single",
   "cursor.composer.shouldAutoScrollToBottom": false, // "multiple",
   "files.simpleDialog.enable": true,
   "git.openRepositoryInParentFolders": "never",
   "editor.rulers": [],
-  "[typescript]": {
-    "editor.rulers": []
-  },
-  "[javascript]": {
-    "editor.rulers": []
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
   "terminal.integrated.tabs.location": "left",
   "terminal.integrated.scrollback": 100000,
   "workbench.panel.showLabels": false,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "workbench.statusBar.visible": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.colorTheme": "Aura Dark",
 }
