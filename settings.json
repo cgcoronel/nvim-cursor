@@ -48,8 +48,12 @@
   
   "workbench.colorCustomizations": {
     // Aura Dark 
-    "titleBar.activeBackground": "#15141a",
-    "titleBar.inactiveBackground": "#15141a",
+    "editor.background": "#110f17",
+    "titleBar.activeBackground": "#110f17",
+    "titleBar.inactiveBackground": "#110f17",
+
+   // "titleBar.activeBackground": "#15141a",
+  //  "titleBar.inactiveBackground": "#15141a",
     "titleBar.activeForeground": "#4a4a4e",
     "titleBar.border": "#00000000", // invisible
 
