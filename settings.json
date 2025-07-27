@@ -45,25 +45,32 @@
   "git.autofetch": true,
   "editor.formatOnSave": true,
   "window.titleBarStyle": "custom",
+  
   "workbench.colorCustomizations": {
-  // Cursor theme darkmidnight  
-  //    "workbench.colorCustomizations": {
-  //      "editor.background": "#1a1c21",
-  //      "editorGutter.background": "#1a1c21",
-  //      "breadcrumb.background": "#1a1c21",
-  //      //
-  //      "tab.activeBorderTop": "#25272b",
-  //      "titleBar.border": "#1a1c21",
-  //      "tab.border": "#1a1c21",
-  //      //
-  //      "editorLineNumber.activeForeground": "#ffffff", // numero de linea
-  //      //
-  //      "editor.lineHighlightBackground": "#00000000",
-  //      "editor.lineHighlightBorder": "#00000000",
-  //      //
-  //      "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
-  //      "panelTitle.inactiveForeground": "#7b88a1" // texto de otros paneles no activos
-     },
+    // Aura Dark 
+    "titleBar.activeBackground": "#15141a",
+    "titleBar.inactiveBackground": "#15141a",
+    "titleBar.activeForeground": "#4a4a4e",
+    "titleBar.border": "#00000000", // invisible
+
+    // Cursor theme darkmidnight  
+    //    "workbench.colorCustomizations": {
+    //      "editor.background": "#1a1c21",
+    //      "editorGutter.background": "#1a1c21",
+    //      "breadcrumb.background": "#1a1c21",
+    //      //
+    //      "tab.activeBorderTop": "#25272b",
+    //      "titleBar.border": "#1a1c21",
+    //      "tab.border": "#1a1c21",
+    //      //
+    //      "editorLineNumber.activeForeground": "#ffffff", // numero de linea
+    //      //
+    //      "editor.lineHighlightBackground": "#00000000",
+    //      "editor.lineHighlightBorder": "#00000000",
+    //      //
+    //      "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
+    //      "panelTitle.inactiveForeground": "#7b88a1" // texto de otros paneles no activos
+  },
   "cursor.composer.textSizeScale": 1.15,
   "workbench.editor.showTabs": "single",
   "cursor.composer.shouldAutoScrollToBottom": false, // "multiple",
