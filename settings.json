@@ -52,10 +52,9 @@
     "titleBar.activeBackground": "#110f17",
     "titleBar.inactiveBackground": "#110f17",
 
- //   "titleBar.activeBackground": "#15141a",
- //   "titleBar.inactiveBackground": "#15141a",
-    "titleBar.activeForeground": "#4a4a4e",
-    "titleBar.border": "#00000000" // invisible
+    "titleBar.activeForeground": "#4f4278",
+    "titleBar.border": "#00000000", 
+    "terminal.background": "#110f17" 
 
     // Cursor theme darkmidnight  
     //    "workbench.colorCustomizations": {
