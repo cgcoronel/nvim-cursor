@@ -27,7 +27,7 @@
   "breadcrumbs.icons": false,
   "breadcrumbs.symbolPath": "off",
   "zenMode.hideLineNumbers": false,
-  
+
   // Neovim configuration
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1,
@@ -40,12 +40,10 @@
       "command": "vscode-neovim.escape"
     }
   },
-  "projectManager.git.baseFolders": [
-    "/Users/Cristian/projects/xepelin"
-  ],
+  "projectManager.git.baseFolders": ["/Users/Cristian/projects/xepelin"],
   "git.confirmSync": false,
   "git.autofetch": true,
-  
+
   // Editor behavior
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -53,7 +51,7 @@
     "source.organizeImports": "explicit"
   },
   "window.titleBarStyle": "custom",
-  
+
   // TypeScript/JavaScript specific
   "typescript.preferences.includePackageJsonAutoImports": "auto",
   "typescript.suggest.autoImports": true,
@@ -61,14 +59,14 @@
   "javascript.preferences.includePackageJsonAutoImports": "auto",
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  
+
   // AWS/Pulumi specific
   "files.associations": {
     "*.pulumi": "yaml",
     "*.tf": "hcl",
     "*.tfvars": "hcl"
   },
-  
+
   // Formatters - usando Prettier como default
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[typescript]": {
@@ -83,57 +81,52 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  
+
   // UI customizations
   "workbench.colorCustomizations": {
-    "editor.background": "#110f17",
-    "titleBar.activeBackground": "#110f17",
-    "titleBar.inactiveBackground": "#110f17",
+    //    "editor.background": "#110f17",
+    //    "titleBar.activeBackground": "#110f17",
+    //    "titleBar.inactiveBackground": "#110f17",
+    //
+    //    "titleBar.activeForeground": "#4f4278",
+    //    "titleBar.border": "#00000000",
+    //    "terminal.background": "#110f17"
 
-    "titleBar.activeForeground": "#4f4278",
-    "titleBar.border": "#00000000", 
-    "terminal.background": "#110f17" 
-
-    // Cursor theme darkmidnight  
-    //    "workbench.colorCustomizations": {
-    //      "editor.background": "#1a1c21",
-    //      "editorGutter.background": "#1a1c21",
-    //      "breadcrumb.background": "#1a1c21",
-    //      //
-    //      "tab.activeBorderTop": "#25272b",
-    //      "titleBar.border": "#1a1c21",
-    //      "tab.border": "#1a1c21",
-    //      //
-    //      "editorLineNumber.activeForeground": "#ffffff", // numero de linea
-    //      //
-    //      "editor.lineHighlightBackground": "#00000000",
-    //      "editor.lineHighlightBorder": "#00000000",
-    //      //
-    //      "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
-    //      "panelTitle.inactiveForeground": "#7b88a1" // texto de otros paneles no activos
+    // Cursor theme darkmidnight
+    "editor.background": "#1a1c21"
+    "editorGutter.background": "#1a1c21",
+    "breadcrumb.background": "#1a1c21",
+    "tab.activeBorderTop": "#25272b",
+    "titleBar.border": "#1a1c21",
+    "tab.border": "#1a1c21",
+    "editorLineNumber.activeForeground": "#ffffff", // numero de linea
+    "editor.lineHighlightBackground": "#00000000",
+    "editor.lineHighlightBorder": "#00000000",
+    "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
+    "panelTitle.inactiveForeground": "#7b88a1" // texto de otros paneles no activos
   },
-  
+
   // Cursor specific
   "cursor.composer.textSizeScale": 1.15,
   "workbench.editor.showTabs": "single",
   "cursor.composer.shouldAutoScrollToBottom": false,
-  
+
   // File handling
   "files.simpleDialog.enable": true,
   "git.openRepositoryInParentFolders": "never",
   "editor.rulers": [],
-  
+
   // Workbench
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.panel.showLabels": false,
   "workbench.statusBar.visible": false,
-  
+
   // Terminal
   "terminal.integrated.tabs.location": "left",
   "terminal.integrated.scrollback": 100000,
-  
+
   // Theme
-  "workbench.colorTheme": "Aura Dark"
+  "workbench.colorTheme": "Cursor Dark Midnight"
 }
