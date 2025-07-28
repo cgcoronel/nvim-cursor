@@ -93,7 +93,7 @@
     //    "terminal.background": "#110f17"
 
     // Cursor theme darkmidnight
-    "editor.background": "#1a1c21"
+    "editor.background": "#1a1c21",
     "editorGutter.background": "#1a1c21",
     "breadcrumb.background": "#1a1c21",
     "tab.activeBorderTop": "#25272b",
