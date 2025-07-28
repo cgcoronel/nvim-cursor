@@ -9,17 +9,17 @@
   "terminal.integrated.fontWeight": "bold",
   "terminal.integrated.lineHeight": 1.4,
   "window.newWindowDimensions": "maximized",
-  "editor.guides.indentation": false, // indentacion codigo
-  "editor.glyphMargin": true, // margen barra numero linea
-  "editor.scrollbar.horizontal": "hidden", // ocultar barra horizontal
-  "editor.scrollbar.vertical": "hidden", // ocultar barra vertical
+  "editor.guides.indentation": false,
+  "editor.glyphMargin": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
   "editor.smoothScrolling": true,
-  "editor.lineNumbers": "on", // "relative",
+  "editor.lineNumbers": "on",
   "editor.stickyScroll.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
   "breadcrumbs.enabled": true,
@@ -27,6 +27,8 @@
   "breadcrumbs.icons": false,
   "breadcrumbs.symbolPath": "off",
   "zenMode.hideLineNumbers": false,
+  
+  // Neovim configuration
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1,
     "asvetliakov.vscode-neovim": 1
@@ -43,11 +45,47 @@
   ],
   "git.confirmSync": false,
   "git.autofetch": true,
+  
+  // Editor behavior
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
   "window.titleBarStyle": "custom",
   
+  // TypeScript/JavaScript specific
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.includePackageJsonAutoImports": "auto",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  
+  // AWS/Pulumi specific
+  "files.associations": {
+    "*.pulumi": "yaml",
+    "*.tf": "hcl",
+    "*.tfvars": "hcl"
+  },
+  
+  // Formatters - usando Prettier como default
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // UI customizations
   "workbench.colorCustomizations": {
-    // Aura Dark 
     "editor.background": "#110f17",
     "titleBar.activeBackground": "#110f17",
     "titleBar.inactiveBackground": "#110f17",
@@ -74,28 +112,28 @@
     //      "panelTitle.activeForeground": "#7b88a1", // texto "Terminal" activo
     //      "panelTitle.inactiveForeground": "#7b88a1" // texto de otros paneles no activos
   },
+  
+  // Cursor specific
   "cursor.composer.textSizeScale": 1.15,
   "workbench.editor.showTabs": "single",
-  "cursor.composer.shouldAutoScrollToBottom": false, // "multiple",
+  "cursor.composer.shouldAutoScrollToBottom": false,
+  
+  // File handling
   "files.simpleDialog.enable": true,
   "git.openRepositoryInParentFolders": "never",
   "editor.rulers": [],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+  // Workbench
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
-  "terminal.integrated.tabs.location": "left",
-  "terminal.integrated.scrollback": 100000,
   "workbench.panel.showLabels": false,
   "workbench.statusBar.visible": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "workbench.colorTheme": "Aura Dark",
+  
+  // Terminal
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.scrollback": 100000,
+  
+  // Theme
+  "workbench.colorTheme": "Aura Dark"
 }
