@@ -128,5 +128,6 @@
   "terminal.integrated.scrollback": 100000,
 
   // Theme
-  "workbench.colorTheme": "Cursor Dark Midnight"
+  "workbench.colorTheme": "Cursor Dark Midnight",
+  "extensions.ignoreRecommendations": true
 }
