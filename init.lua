@@ -48,11 +48,6 @@ map("n", "<C-k>", function()
 	vim.cmd('call VSCodeNotify("workbench.action.navigateUp")')
 end)
 
--- Quick actions
--- map("n", "<leader>f", function()
--- 	vim.cmd('call VSCodeNotify("workbench.action.quickOpen")')
--- end)
-
 map("n", "<leader>q", function()
 	vim.cmd('call VSCodeNotify("workbench.action.closeActiveEditor")')
 end)
