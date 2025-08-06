@@ -181,7 +181,7 @@
   },
   {
     "key": "cmd+e",
-    "command": "-actions.findWithSelection" 
+    "command": "-actions.findWithSelection"
   },
   {
     "key": "cmd+e",
@@ -315,4 +315,3 @@
     "when": "viewContainer.workbench.view.debug.enabled"
   }
 ]
-
