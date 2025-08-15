@@ -91,7 +91,6 @@
     //    "titleBar.activeForeground": "#4f4278",
     //    "titleBar.border": "#00000000",
     //    "terminal.background": "#110f17"
-
     // Cursor theme darkmidnight
     "editor.background": "#1a1c21",
     "editorGutter.background": "#1a1c21",
@@ -126,9 +125,7 @@
   // Terminal
   "terminal.integrated.tabs.location": "left",
   "terminal.integrated.scrollback": 100000,
-
-  // Theme
-  "workbench.colorTheme": "Cursor Dark Midnight",
   "extensions.ignoreRecommendations": true,
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Cursor Dark Midnight"
 }
