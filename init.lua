@@ -1,20 +1,25 @@
 local map = vim.keymap.set
 local opts = { silent = true, noremap = true }
 
-vim.g.mapleader = " "
-map({ "n", "v" }, "<Space>", "<NOP>", opts)
+-- Helper para comandos de VSCode
+local function vscode_command(command)
+	return function()
+		vim.cmd('call VSCodeNotify("' .. command .. '")')
+	end
+end
 
--- Escape mapping (ya configurado en settings.json)
-map("i", "kj", "<Esc>", opts)
+-- Configuración básica
+vim.g.mapleader = " "
 
 -- File operations
 map("n", "<leader>w", vim.cmd.w, opts)
 
--- Line navigation
-map("n", "gl", "$")
-map("n", "gh", "0")
-map("v", "gl", "$")
-map("v", "gh", "0")
+-- Line navigation (más eficiente)
+local line_nav_opts = { noremap = true }
+map("n", "gl", "$", line_nav_opts)
+map("n", "gh", "0", line_nav_opts)
+map("v", "gl", "$", line_nav_opts)
+map("v", "gh", "0", line_nav_opts)
 
 -- Move lines up and down
 map("n", "<S-k>", ":m .-2<CR>==", opts)
@@ -23,65 +28,29 @@ map("v", "<S-j>", ":m '>+1<CR>gv=gv", opts)
 map("v", "<S-k>", ":m '<-2<CR>gv=gv", opts)
 
 -- Split management
-map("n", "S", function()
-	vim.cmd('call VSCodeNotify("workbench.action.splitEditorDown")')
-end)
-
-map("n", "s", function()
-	vim.cmd('call VSCodeNotify("workbench.action.splitEditorRight")')
-end)
+map("n", "S", vscode_command("workbench.action.splitEditorDown"), opts)
+map("n", "s", vscode_command("workbench.action.splitEditorRight"), opts)
 
 -- Navigate between editors
-map("n", "<C-h>", function()
-	vim.cmd('call VSCodeNotify("workbench.action.navigateLeft")')
-end)
+map("n", "<C-h>", vscode_command("workbench.action.navigateLeft"), opts)
+map("n", "<C-l>", vscode_command("workbench.action.navigateRight"), opts)
+map("n", "<C-j>", vscode_command("workbench.action.navigateDown"), opts)
+map("n", "<C-k>", vscode_command("workbench.action.navigateUp"), opts)
 
-map("n", "<C-l>", function()
-	vim.cmd('call VSCodeNotify("workbench.action.navigateRight")')
-end)
-
-map("n", "<C-j>", function()
-	vim.cmd('call VSCodeNotify("workbench.action.navigateDown")')
-end)
-
-map("n", "<C-k>", function()
-	vim.cmd('call VSCodeNotify("workbench.action.navigateUp")')
-end)
-
-map("n", "<leader>q", function()
-	vim.cmd('call VSCodeNotify("workbench.action.closeActiveEditor")')
-end)
-
-map("n", ";", function()
-	vim.cmd('call VSCodeNotify("editor.action.wordHighlight.next")')
-end, { silent = true })
+-- Editor management
+map("n", "<leader>q", vscode_command("workbench.action.closeActiveEditor"), opts)
+map("n", ";", vscode_command("editor.action.wordHighlight.next"), opts)
 
 -- File explorer
-map("n", "<leader>e", function()
-	vim.cmd('call VSCodeNotify("vsnetrw.open")')
-end, { silent = true })
-
--- Git
-map("n", "<leader>d", function()
-	vim.cmd('call VSCodeNotify("workbench.view.scm")')
-end)
+map("n", "<leader>e", vscode_command("vsnetrw.open"), opts)
 
 -- Go to implementation
-map("n", "gi", function()
-	vim.cmd('call VSCodeNotify("editor.action.goToImplementation")')
-end)
+map("n", "gi", vscode_command("editor.action.goToImplementation"), opts)
 
--- Clipboard
-map("n", "yy", '"+yy')
-map("v", "y", '"+y')
+-- Clipboard (sistema)
+map("n", "yy", '"+yy', { noremap = true })
+map("v", "y", '"+y', { noremap = true })
 
 -- Git changes navigation
-map("n", "<cr>", function()
-	vim.cmd('call VSCodeNotify("workbench.action.editor.nextChange")')
-end)
-
-map("n", "<bs>", function()
-	vim.cmd('call VSCodeNotify("workbench.action.editor.previousChange")')
-end)
-
-
+map("n", "<cr>", vscode_command("workbench.action.editor.nextChange"), opts)
+map("n", "<bs>", vscode_command("workbench.action.editor.previousChange"), opts)
