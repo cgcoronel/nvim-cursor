@@ -1,9 +1,8 @@
 {
   // Window & UI
-  "window.zoomLevel": 1.8,
+  "window.zoomLevel": 1.6,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
-  "workbench.colorTheme": "Cursor Dark Midnight",
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.showTabs": "single",
@@ -14,14 +13,12 @@
 
   // Editor appearance & behavior
   "editor.fontFamily": "VictorMono Nerd Font",
-  "editor.fontSize": 11,
+  "editor.fontSize": 12,
   "editor.lineHeight": 22,
   "editor.letterSpacing": 0.2,
   "editor.fontWeight": "500",
   "editor.guides.indentation": false,
   "editor.glyphMargin": true,
-//  "editor.scrollbar.horizontal": "hidden",
-//  "editor.scrollbar.vertical": "hidden",
   "editor.overviewRulerBorder": false,
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
@@ -130,20 +127,31 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // UI customizations
-  "workbench.colorCustomizations": {
-    "editor.background": "#1a1c21",
-    "editorGutter.background": "#1a1c21",
-    "breadcrumb.background": "#1a1c21",
-    "tab.activeBorderTop": "#25272b",
-    "titleBar.border": "#1a1c21",
-    "tab.border": "#1a1c21",
-    "editorLineNumber.activeForeground": "#ffffff",
-    "editor.lineHighlightBackground": "#00000000",
-    "editor.lineHighlightBorder": "#00000000",
-    "panelTitle.activeForeground": "#7b88a1",
-    "panelTitle.inactiveForeground": "#7b88a1"
-  },
+  // UI customizations cursor dark
+// "workbench.colorCustomizations": {
+//   "editor.background": "#1a1c21",
+//   "editorGutter.background": "#1a1c21",
+//   "breadcrumb.background": "#1a1c21",
+//   "tab.activeBorderTop": "#25272b",
+//   "titleBar.border": "#1a1c21",
+//   "tab.border": "#1a1c21",
+//   "editorLineNumber.activeForeground": "#ffffff",
+//   "editor.lineHighlightBackground": "#00000000",
+//   "editor.lineHighlightBorder": "#00000000",
+//   "panelTitle.activeForeground": "#7b88a1",
+//   "panelTitle.inactiveForeground": "#7b88a1"
+// },
+
+// UI customizations cursor dark midnight
+ "workbench.colorCustomizations": {
+   "editor.background": "#141414",
+   "editorGutter.background": "#141414",
+   "breadcrumb.background": "#141414",
+   "titleBar.border": "#141414",
+   "tab.border": "#141414",
+   "editor.lineHighlightBackground": "#00000000",
+   "editor.lineHighlightBorder": "#00000000",
+ },
 
   // Cursor specific
   "cursor.composer.textSizeScale": 1.15,
@@ -151,5 +159,6 @@
 
   // Extensions & other
   "extensions.ignoreRecommendations": true,
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.tabs.enabled": false
 }
