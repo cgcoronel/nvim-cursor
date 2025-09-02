@@ -128,30 +128,30 @@
   },
 
   // UI customizations cursor dark
-// "workbench.colorCustomizations": {
-//   "editor.background": "#1a1c21",
-//   "editorGutter.background": "#1a1c21",
-//   "breadcrumb.background": "#1a1c21",
-//   "tab.activeBorderTop": "#25272b",
-//   "titleBar.border": "#1a1c21",
-//   "tab.border": "#1a1c21",
-//   "editorLineNumber.activeForeground": "#ffffff",
-//   "editor.lineHighlightBackground": "#00000000",
-//   "editor.lineHighlightBorder": "#00000000",
-//   "panelTitle.activeForeground": "#7b88a1",
-//   "panelTitle.inactiveForeground": "#7b88a1"
-// },
-
-// UI customizations cursor dark midnight
  "workbench.colorCustomizations": {
-   "editor.background": "#141414",
-   "editorGutter.background": "#141414",
-   "breadcrumb.background": "#141414",
-   "titleBar.border": "#141414",
-   "tab.border": "#141414",
+   "editor.background": "#1a1c21",
+   "editorGutter.background": "#1a1c21",
+   "breadcrumb.background": "#1a1c21",
+   "tab.activeBorderTop": "#25272b",
+   "titleBar.border": "#1a1c21",
+   "tab.border": "#1a1c21",
+   "editorLineNumber.activeForeground": "#ffffff",
    "editor.lineHighlightBackground": "#00000000",
    "editor.lineHighlightBorder": "#00000000",
+   "panelTitle.activeForeground": "#7b88a1",
+   "panelTitle.inactiveForeground": "#7b88a1"
  },
+
+// UI customizations cursor dark midnight
+/// "workbench.colorCustomizations": {
+///   "editor.background": "#141414",
+///   "editorGutter.background": "#141414",
+///   "breadcrumb.background": "#141414",
+///   "titleBar.border": "#141414",
+///   "tab.border": "#141414",
+///   "editor.lineHighlightBackground": "#00000000",
+///   "editor.lineHighlightBorder": "#00000000",
+/// },
 
   // Cursor specific
   "cursor.composer.textSizeScale": 1.15,
@@ -160,5 +160,6 @@
   // Extensions & other
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "terminal.integrated.tabs.enabled": false
+  "terminal.integrated.tabs.enabled": false,
+  "workbench.colorTheme": "Cursor Dark Midnight"
 }

@@ -8,41 +8,21 @@
     "key": "ctrl+.",
     "command": "workbench.action.nextEditor"
   },
- // {
- //   "key": "ctrl+l",
- //   "command": "workbench.action.navigateRight",
- //   "when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
- // },
   {
     "key": "ctrl+w right",
     "command": "-workbench.action.navigateRight",
     "when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
   },
- // {
- //   "key": "ctrl+h",
- //   "command": "workbench.action.navigateLeft",
- //   "when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
- // },
   {
     "key": "ctrl+w left",
     "command": "-workbench.action.navigateLeft",
     "when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
   },
- // {
- //   "key": "ctrl+j",
- //   "command": "workbench.action.navigateDown",
- //   "when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
- // },
   {
     "key": "ctrl+w down",
     "command": "-workbench.action.navigateDown",
     "when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
   },
-//  {
-//    "key": "ctrl+k",
-//    "command": "workbench.action.navigateUp",
-//    "when": "!editorTextFocus && !terminalFocus && neovim.mode != 'cmdline'"
-//  },
   {
     "key": "ctrl+w up",
     "command": "-workbench.action.navigateUp",
@@ -72,12 +52,6 @@
     "key": "ctrl+i",
     "command": "workbench.action.showAllEditors"
   },
-//  {
-//    "key": "ctrl+h",
-//    "command": "workbench.action.focusLeftGroup",
-//    "when": "composerFocused && !editorTextFocus"
-//  },
-
   // ===== EDITOR AND FILES =====
   {
     "key": "cmd+w",
@@ -142,11 +116,6 @@
     "command": "-editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
-//  {
-//    "key": "f3",
-//    "command": "editor.action.wordHighlight.next",
-//    "when": "editorTextFocus && hasWordHighlights"
-//  },
   {
     "key": "f7",
     "command": "-editor.action.wordHighlight.next",
