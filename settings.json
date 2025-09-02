@@ -143,15 +143,15 @@
  },
 
 // UI customizations cursor dark midnight
-/// "workbench.colorCustomizations": {
-///   "editor.background": "#141414",
-///   "editorGutter.background": "#141414",
-///   "breadcrumb.background": "#141414",
-///   "titleBar.border": "#141414",
-///   "tab.border": "#141414",
-///   "editor.lineHighlightBackground": "#00000000",
-///   "editor.lineHighlightBorder": "#00000000",
-/// },
+// "workbench.colorCustomizations": {
+//   "editor.background": "#141414",
+//   "editorGutter.background": "#141414",
+//   "breadcrumb.background": "#141414",
+//   "titleBar.border": "#141414",
+//   "tab.border": "#141414",
+//   "editor.lineHighlightBackground": "#00000000",
+//   "editor.lineHighlightBorder": "#00000000",
+// },
 
   // Cursor specific
   "cursor.composer.textSizeScale": 1.15,

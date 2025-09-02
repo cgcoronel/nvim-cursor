@@ -28,6 +28,32 @@
 - Trabajo con reglas de negocio complejas, así que priorizá claridad por sobre velocidad.
 - Me gusta que el código quede limpio, expresivo y bien organizado. No hace falta microoptimizar.
 
+## TypeScript:
+- Prefiero tipos explícitos sobre `any`
+- Usá interfaces para objetos complejos
+- Evitá `as` type assertions cuando sea posible
+- Usá `unknown` en lugar de `any` cuando no conocés el tipo
+- Preferí `const assertions` para objetos que no van a cambiar
+
+## Seguridad:
+- Nunca hardcodees secrets, API keys o credenciales
+- Si veo código que expone información sensible, avisame inmediatamente
+- Validá siempre inputs externos antes de procesarlos
+
+## Performance:
+- Considerá complejidad algorítmica en operaciones con arrays/objetos grandes
+- Evitá N+1 queries en DynamoDB
+- Usá batch operations cuando sea posible
+- Implementá paginación para listas grandes
+- Considerá caching para operaciones costosas
+
+## Manejo de errores:
+- Siempre manejá errores de forma explícita
+- Usá try/catch para operaciones que pueden fallar
+- Loggeá errores con contexto suficiente para debuggear
+- No dejes errores silenciosos que puedan ocultar bugs
+- Usá tipos de error específicos cuando sea posible
+
 ## Regla general para revisión de código (PRs / Code Review)
 
 Al revisar un pull request, prestá atención a lo siguiente:
@@ -47,7 +73,7 @@ Al revisar un pull request, prestá atención a lo siguiente:
 
 ## Git y flujo de trabajo:
 - Uso Conventional Commits: `feat(scope): mensaje`, `fix(handler): corrige X`, etc.
-- Los mensajes de commits deben ser en ingles
+- Los mensajes de commits deben ser en inglés
 - Trabajo con branches cortos y específicos para cada cambio.
 - Siempre hago PRs, incluso en proyectos en solitario.
 - Consultame siempre antes de hacer cambios no explícitos.
