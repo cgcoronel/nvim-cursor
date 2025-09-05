@@ -4,7 +4,6 @@
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,
-  "workbench.layoutControl.enabled": false,
   "workbench.editor.showTabs": "single",
   "workbench.editor.enablePreview": false,
   "workbench.panel.showLabels": false,
@@ -35,7 +34,7 @@
   "editor.rulers": [],
 
   // Terminal
-  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontWeight": "bold",
   "terminal.integrated.lineHeight": 1.6,
   "terminal.integrated.tabs.location": "left",
@@ -134,6 +133,7 @@
    "breadcrumb.background": "#1a1c21",
    "tab.activeBorderTop": "#25272b",
    "titleBar.border": "#1a1c21",
+   "titleBar.activeForeground": "#1a1c21",  
    "tab.border": "#1a1c21",
    "editorLineNumber.activeForeground": "#ffffff",
    "editor.lineHighlightBackground": "#00000000",
@@ -161,5 +161,6 @@
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.tabs.enabled": false,
-  "workbench.colorTheme": "Cursor Dark Midnight"
+  "workbench.colorTheme": "Cursor Dark Midnight",
+  "workbench.layoutControl.enabled": false
 }

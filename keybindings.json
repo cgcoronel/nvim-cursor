@@ -239,11 +239,11 @@
   // ===== PROJECTS AND TOOLS =====
   {
     "key": "alt+cmd+p",
-    "command": "-projectManager.listProjects"
+    "command": "-projectManager.listProjectsNewWindow"
   },
   {
     "key": "ctrl+p",
-    "command": "projectManager.listProjectsNewWindow"
+    "command": "projectManager.listProjects"
   },
   {
     "key": "cmd+r",
