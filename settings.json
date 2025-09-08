@@ -126,7 +126,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // UI customizations cursor dark
+ // UI customizations cursor dark midnight
  "workbench.colorCustomizations": {
    "editor.background": "#1a1c21",
    "editorGutter.background": "#1a1c21",
@@ -142,7 +142,7 @@
    "panelTitle.inactiveForeground": "#7b88a1"
  },
 
-// UI customizations cursor dark midnight
+// UI customizations cursor dark
 // "workbench.colorCustomizations": {
 //   "editor.background": "#141414",
 //   "editorGutter.background": "#141414",
@@ -161,6 +161,6 @@
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.tabs.enabled": false,
-  "workbench.colorTheme": "Cursor Dark Midnight",
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Cursor Dark Midnight"
 }
