@@ -1,6 +1,6 @@
 {
   // Window & UI
-  "window.zoomLevel": 1.6,
+  "window.zoomLevel": 1.4,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,
@@ -45,12 +45,6 @@
   "breadcrumbs.icons": false,
   "breadcrumbs.symbolPath": "off",
   "zenMode.hideLineNumbers": false,
-
-  // Neovim configuration
-  "extensions.experimental.affinity": {
-    "vscodevim.vim": 1,
-    "asvetliakov.vscode-neovim": 1
-  },
   "vscode-neovim.neovimInitVimPaths.darwin": "/Users/Cristian/.config/nvim-cursor/init.lua",
   "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
   "vscode-neovim.compositeKeys": {
