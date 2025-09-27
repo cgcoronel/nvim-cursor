@@ -5,3 +5,8 @@ ln -sf /Users/cristiancoronel/.config/nvim-cursor/settings.json ~/Library/Applic
 ln -sf /Users/cristiancoronel/.config/nvim-cursor/keybindings.json ~/Library/Application\ Support/Cursor/User/keybindings.json
 
 
+repeticion del cursor
+
+osascript -e 'id of app "Cursor"'
+
+defaults write com.todesktop.230313mzl4w4u92 ApplePressAndHoldEnabled -bool false
