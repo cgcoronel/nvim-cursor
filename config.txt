@@ -10,3 +10,11 @@ repeticion del cursor
 osascript -e 'id of app "Cursor"'
 
 defaults write com.todesktop.230313mzl4w4u92 ApplePressAndHoldEnabled -bool false
+
+
+para instalar vsnetrw:
+
+descargar el vsnetrw-0.3.2.vsix de https://github.com/danprince/vsnetrw/releases
+
+instalarlo con >Extensions: Install from VSIX.
+escribir el nombre completo de la ruta y el archivo.
