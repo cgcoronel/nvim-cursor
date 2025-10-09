@@ -1,6 +1,6 @@
 {
   // Window & UI
-  "window.zoomLevel": 1.4,
+  "window.zoomLevel": 1.6,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,
@@ -12,8 +12,8 @@
 
   // Editor appearance & behavior
   "editor.fontFamily": "VictorMono Nerd Font",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 22,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 23,
   "editor.letterSpacing": 0.2,
   "editor.fontWeight": "500",
   "editor.guides.indentation": false,
@@ -121,11 +121,11 @@
   },
 
  // UI customizations cursor dark midnight
- "workbench.colorCustomizations": {
+  "workbench.colorCustomizations": {
    "editor.background": "#1a1c21",
    "editorGutter.background": "#1a1c21",
    "breadcrumb.background": "#1a1c21",
-   "tab.activeBorderTop": "#25272b",
+  "tab.activeBorderTop": "#25272b",
    "titleBar.border": "#1a1c21",
    "titleBar.activeForeground": "#1a1c21",  
    "tab.border": "#1a1c21",
@@ -134,18 +134,7 @@
    "editor.lineHighlightBorder": "#00000000",
    "panelTitle.activeForeground": "#7b88a1",
    "panelTitle.inactiveForeground": "#7b88a1"
- },
-
-// UI customizations cursor dark
-// "workbench.colorCustomizations": {
-//   "editor.background": "#141414",
-//   "editorGutter.background": "#141414",
-//   "breadcrumb.background": "#141414",
-//   "titleBar.border": "#141414",
-//   "tab.border": "#141414",
-//   "editor.lineHighlightBackground": "#00000000",
-//   "editor.lineHighlightBorder": "#00000000",
-// },
+  },
 
   // Cursor specific
   "cursor.composer.textSizeScale": 1.15,
