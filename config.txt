@@ -18,3 +18,9 @@ descargar el vsnetrw-0.3.2.vsix de https://github.com/danprince/vsnetrw/releases
 
 instalarlo con >Extensions: Install from VSIX.
 escribir el nombre completo de la ruta y el archivo.
+
+
+copy commands:
+
+mkdir $HOME/.cursor/commands
+cp commands/* $HOME/.cursor/commands
