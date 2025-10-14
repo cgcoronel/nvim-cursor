@@ -87,6 +87,14 @@ Al revisar un pull request, prestá atención a lo siguiente:
 - Nunca inventes valores para variables de entorno (como URLs, tokens o claves) si no sabés su valor real.
 - Dejá un comentario `TODO` si es necesario, indicando que se debe completar.
 
+## Reglas específicas para generación de Lambdas
+
+- Toda nueva Lambda debe agregarse a `esbuild.mjs`, dentro del array `entryPoints`.
+- Ubicarse en orden alfabético o donde corresponda por lógica.
+- Sin esto, Pulumi no genera el `.zip` ni puede desplegarla.
+- Validá que al correr `build` se genere el archivo correspondiente.
+- Si Cursor la genera automáticamente, verificá que también haya actualizado ese archivo.
+
 ## Otros:
 - No completes código automáticamente si no te lo pido.
 - No introduzcas nuevas tecnologías o patrones sin evaluar bien las opciones existentes.
