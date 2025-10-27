@@ -243,7 +243,8 @@
   },
   {
     "key": "ctrl+p",
-    "command": "projectManager.listProjects"
+    // "command": "projectManager.listProjects"
+    "command": "projectManager.listProjectsNewWindow"
   },
   {
     "key": "cmd+r",
