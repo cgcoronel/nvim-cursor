@@ -12,9 +12,9 @@
 
   // Editor appearance & behavior
   "editor.fontFamily": "VictorMono Nerd Font",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 23,
-  "editor.letterSpacing": 0.2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 26,
+  "editor.letterSpacing": 0.5,
   "editor.fontWeight": "500",
   "editor.guides.indentation": false,
   "editor.glyphMargin": true,
@@ -34,7 +34,7 @@
   "editor.rulers": [],
 
   // Terminal
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "bold",
   "terminal.integrated.lineHeight": 1.6,
   "terminal.integrated.tabs.location": "left",
