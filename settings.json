@@ -1,6 +1,6 @@
 {
   // Window & UI
-  "window.zoomLevel": 1.6,
+  "window.zoomLevel": 1.5,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,
@@ -12,7 +12,7 @@
 
   // Editor appearance & behavior
   "editor.fontFamily": "VictorMono Nerd Font",
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.lineHeight": 26,
   "editor.letterSpacing": 0.5,
   "editor.fontWeight": "500",
@@ -120,20 +120,20 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
- // UI customizations cursor dark midnight
+  // UI customizations cursor dark midnight
   "workbench.colorCustomizations": {
-   "editor.background": "#1a1c21",
-   "editorGutter.background": "#1a1c21",
-   "breadcrumb.background": "#1a1c21",
+    "editor.background": "#1a1c21",
+    "editorGutter.background": "#1a1c21",
+    "breadcrumb.background": "#1a1c21",
     "tab.activeBorderTop": "#25272b",
-   "titleBar.border": "#1a1c21",
-   "titleBar.activeForeground": "#1a1c21",  
-   "tab.border": "#1a1c21",
-   "editorLineNumber.activeForeground": "#ffffff",
-   "editor.lineHighlightBackground": "#00000000",
-   "editor.lineHighlightBorder": "#00000000",
-   "panelTitle.activeForeground": "#7b88a1",
-   "panelTitle.inactiveForeground": "#7b88a1"
+    "titleBar.border": "#1a1c21",
+    //   "titleBar.activeForeground": "#1a1c21",
+    "tab.border": "#1a1c21",
+    "editorLineNumber.activeForeground": "#ffffff",
+    "editor.lineHighlightBackground": "#00000000",
+    "editor.lineHighlightBorder": "#00000000",
+    "panelTitle.activeForeground": "#7b88a1",
+    "panelTitle.inactiveForeground": "#7b88a1"
   },
 
   // Cursor specific
@@ -145,5 +145,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.tabs.enabled": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Cursor Dark Midnight"
+  "workbench.colorTheme": "Cursor Dark Midnight",
+  "diffEditor.hideUnchangedRegions.enabled": true
 }
