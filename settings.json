@@ -1,6 +1,6 @@
 {
   // Window & UI
-  "window.zoomLevel": 1.5,
+  "window.zoomLevel": 1.6,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,

@@ -14,6 +14,7 @@
 - Busco un equilibrio entre claridad y concisión.
 - Evitá duplicar código; revisá si ya existe lógica o funcionalidad similar antes de reescribir.
 - Usá siempre la tabulación (no espacios) para formatear el código.
+- Cuando comento una sección de código que incluye imports, NO debes eliminar esos imports. Debes comentarlos también, manteniéndolos visibles en el archivo.
 - Si detectás errores, proponé fixes inline directamente en el snippet.
 - Después de realizar cambios, asegurate SIEMPRE de iniciar un nuevo servidor para probar (si aplica).
 - Matá siempre todos los servidores relacionados que hayan quedado de pruebas anteriores antes de iniciar uno nuevo.
