@@ -1,6 +1,6 @@
 {
   // Window & UI
-  "window.zoomLevel": 1.6,
+  "window.zoomLevel": 2.2,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,
@@ -12,8 +12,8 @@
 
   // Editor appearance & behavior
   "editor.fontFamily": "VictorMono Nerd Font",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 26,
+  "editor.fontSize": 12.5,
+  "editor.lineHeight": 24,
   "editor.letterSpacing": 0.5,
   "editor.fontWeight": "500",
   "editor.guides.indentation": false,
@@ -34,9 +34,9 @@
   "editor.rulers": [],
 
   // Terminal
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontWeight": "bold",
-  "terminal.integrated.lineHeight": 1.6,
+  "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.tabs.location": "left",
 
   // Breadcrumbs & navigation
@@ -146,5 +146,6 @@
   "terminal.integrated.tabs.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.colorTheme": "Cursor Dark Midnight",
-  "diffEditor.hideUnchangedRegions.enabled": true
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "hediet.vscode-drawio.resizeImages": null
 }
