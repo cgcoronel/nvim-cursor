@@ -136,7 +136,6 @@
     "command": "editor.action.wordHighlight.prev",
     "when": "editorTextFocus && hasWordHighlights"
   },
-
   // ===== EXPLORER AND VIEWS =====
   {
     "key": "cmd+e",
@@ -176,7 +175,6 @@
     "key": "alt+cmd+tab",
     "command": "-workbench.action.showAllEditors"
   },
-
   // ===== GIT AND SCM =====
   {
     "key": "cmd+d",
@@ -193,7 +191,6 @@
     "command": "git.openChange",
     "when": "config.git.enabled && scmActiveResourceHasChanges && !git.missing && !isInDiffEditor && !isMergeEditor && resourceScheme == 'file' && gitOpenRepositoryCount != '0'"
   },
-
   // ===== TERMINAL =====
   {
     "key": "cmd+t",
@@ -235,7 +232,6 @@
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
-
   // ===== PROJECTS AND TOOLS =====
   {
     "key": "alt+cmd+p",
@@ -250,7 +246,6 @@
     "key": "cmd+r",
     "command": "composerMode.background"
   },
-
   // ===== VSNETRW =====
   {
     "key": "o",
@@ -277,11 +272,16 @@
     "command": "vsnetrw.rename",
     "when": "editorLangId == vsnetrw"
   },
-
   // ===== DEBUG =====
   {
     "key": "cmd+shift+d",
     "command": "-workbench.view.debug",
     "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  // ===== SEARCH BOX ====
+  {
+    "key": "cmd+enter",
+    "command": "search.action.focusSearchList",
+    "when": "searchViewletVisible && searchInputBoxFocus"
   }
 ]

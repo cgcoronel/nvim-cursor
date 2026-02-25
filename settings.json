@@ -114,7 +114,6 @@
   // Extensions & other
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.layoutControl.enabled": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "hediet.vscode-drawio.resizeImages": null,
   "workbench.colorTheme": "Cursor Dark Midnight"
