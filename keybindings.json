@@ -283,5 +283,13 @@
     "key": "cmd+enter",
     "command": "search.action.focusSearchList",
     "when": "searchViewletVisible && searchInputBoxFocus"
-  }
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight"
+  },
 ]

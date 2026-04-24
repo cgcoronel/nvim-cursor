@@ -50,9 +50,7 @@
     }
   },
   // Git & project management
-  "projectManager.git.baseFolders": [
-    "/Users/Cristian/projects/xepelin"
-  ],
+  "projectManager.git.baseFolders": ["/Users/Cristian/projects/xepelin"],
   "git.confirmSync": false,
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "never",
@@ -93,21 +91,6 @@
   // Node.js development optimizations
   "npm.enableScriptExplorer": true,
   "npm.exclude": "**/node_modules/**",
-  // UI customizations cursor dark midnight
-  "workbench.colorCustomizations": {
-    "editor.background": "#1a1c21",
-    "editorGutter.background": "#1a1c21",
-    "breadcrumb.background": "#1a1c21",
-    "tab.activeBorderTop": "#25272b",
-    "titleBar.border": "#1a1c21",
-    //   "titleBar.activeForeground": "#1a1c21",
-    "tab.border": "#1a1c21",
-    "editorLineNumber.activeForeground": "#ffffff",
-    "editor.lineHighlightBackground": "#00000000",
-    "editor.lineHighlightBorder": "#00000000",
-    "panelTitle.activeForeground": "#7b88a1",
-    "panelTitle.inactiveForeground": "#7b88a1"
-  },
   // Cursor specific
   "cursor.composer.textSizeScale": 1.15,
   "cursor.composer.shouldAutoScrollToBottom": false,
@@ -116,5 +99,8 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "hediet.vscode-drawio.resizeImages": null,
-  "workbench.colorTheme": "Cursor Dark Midnight"
+  "gitlens.ai.model": "gitkraken",
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
+  "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+  "workbench.agentsWindowButton.enabled": false
 }
