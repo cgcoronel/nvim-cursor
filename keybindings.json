@@ -292,4 +292,13 @@
     "key": "ctrl+l",
     "command": "workbench.action.navigateRight"
   },
+  {
+    "key": "ctrl+/",
+    "command": "workbench.action.quickOpen",
+    "args": "%"
+  },
+  {
+    "key": "cmd+k",
+    "command": "claude-vscode.sidebar.open"
+  },
 ]

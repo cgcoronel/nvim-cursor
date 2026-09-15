@@ -1,19 +1,31 @@
 {
   // Window & UI
-  "window.zoomLevel": 2.2,
+  "window.zoomLevel": 2.5,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,
-  "workbench.editor.showTabs": "single",
+  //  "workbench.editor.showTabs": "single",
   "workbench.editor.enablePreview": false,
-  "workbench.panel.showLabels": false,
+  "workbench.editor.showTabs": "none",
+  "window.commandCenter": false,
+  //  "workbench.panel.showLabels": false,
+  "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
+  // "breadcrumbs.enabled": true,
+  // "breadcrumbs.filePath": "last",
+  // "breadcrumbs.symbolPath": "off",
+  // "breadcrumbs.icons": true,
   "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 15,
+  "explorer.compactFolders": false,
   // Editor appearance & behavior
   "editor.fontFamily": "VictorMono Nerd Font",
-  "editor.fontSize": 12.5,
-  "editor.lineHeight": 24,
-  "editor.letterSpacing": 0.5,
+  //  "editor.fontSize": 12.5,
+  "editor.fontSize": 12,
+  //  "editor.lineHeight": 24,
+  "editor.lineHeight": 22,
+  //  "editor.letterSpacing": 0.5,
+  "editor.letterSpacing": 1,
   "editor.fontWeight": "500",
   "editor.guides.indentation": false,
   "editor.glyphMargin": true,
@@ -50,10 +62,13 @@
     }
   },
   // Git & project management
-  "projectManager.git.baseFolders": ["/Users/Cristian/projects/xepelin"],
+  "projectManager.git.baseFolders": [
+    "/Users/Cristian/projects/xepelin"
+  ],
   "git.confirmSync": false,
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "never",
+  "git.decorations.enabled": false,
   // TypeScript/JavaScript specific
   "typescript.preferences.includePackageJsonAutoImports": "auto",
   "typescript.suggest.autoImports": true,
@@ -97,10 +112,56 @@
   // Extensions & other
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "hediet.vscode-drawio.resizeImages": null,
   "gitlens.ai.model": "gitkraken",
   "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
-  "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
-  "workbench.agentsWindowButton.enabled": false
+  "workbench.agentsWindowButton.enabled": false,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#151823",
+    "panel.background": "#151823",
+    "panel.border": "#20242f",
+    "terminal.border": "#20242f",
+    "tab.activeBackground": "#1b2233",
+    "tab.inactiveBackground": "#151823",
+    //
+    "titleBar.activeBackground": "#151823",
+    "titleBar.inactiveBackground": "#151823",
+    "titleBar.activeForeground": "#6b728a",
+    "titleBar.inactiveForeground": "#6b728a",
+    "titleBar.border": "#20242f",
+    "window.activeBorder": "#000000",
+    "[Mayukai Mono]": {
+      "editorGroupHeader.tabsBackground": "#151823",
+      "editorGroupHeader.noTabsBackground": "#151823",
+      // linea de titulo
+      "titleBar.border": "#151823",
+      // linea header/editor
+      // "editorGroupHeader.border": "#20242f",
+      // linea entre grupos/paneles
+      "editorGroup.border": "#20242f",
+      // separador general de paneles
+      "panel.border": "#20242f",
+      // sidebar
+      "sideBar.border": "#20242f",
+      // Sidebar
+      "sideBar.background": "#151823",
+      "sideBarSectionHeader.background": "#151823",
+      "sideBarTitle.foreground": "#6b728a",
+      "activityBar.background": "#151823",
+      "activityBar.inactiveForeground": "#6b728a",
+      "auxiliaryBar.background": "#151823",
+      "auxiliaryBar.border": "#20242f"
+    }
+  },
+  "window.autoDetectColorScheme": false,
+  "workbench.colorTheme": "Mayukai Mirage",
+  "workbench.activityBar.location": "hidden",
+  "workbench.panel.showLabels": false,
+  "git.showActionButton": false,
+  "git.showCommitInput": false,
+  "claudeCode.preferredLocation": "sidebar",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "claudeCode.focusView": true,
 }

@@ -25,6 +25,18 @@ map("n", "<S-k>", ":m .-2<CR>==", opts)
 map("n", "<S-j>", ":m .+1<CR>==", opts)
 map("v", "<S-j>", ":m '>+1<CR>gv=gv", opts)
 map("v", "<S-k>", ":m '<-2<CR>gv=gv", opts)
+map("v", "<S-k>", ":m '<-2<CR>gv=gv", opts)
+
+map("n", "gf", vscode_command("editor.action.revealDefinition"), opts)
+
+vim.keymap.set("n", "gd", function()
+	local word = vim.fn.expand("<cword>")
+	local pattern = "\\<" .. vim.fn.escape(word, "\\") .. "\\>"
+  
+	vim.fn.setreg("/", pattern)
+	vim.fn.cursor(1, 1)
+	vim.fn.search(pattern, "W")
+  end, { silent = true })
 
 -- Split management
 map("n", "S", vscode_command("workbench.action.splitEditorDown"), opts)
