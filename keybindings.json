@@ -48,10 +48,10 @@
     },
     "when": "editorTextFocus"
   },
-  {
-    "key": "ctrl+i",
-    "command": "workbench.action.showAllEditors"
-  },
+  //  {
+  //    "key": "ctrl+i",
+  //    "command": "workbench.action.showAllEditors"
+  //  },
   // ===== EDITOR AND FILES =====
   {
     "key": "cmd+w",
@@ -243,6 +243,10 @@
     "command": "projectManager.listProjectsNewWindow"
   },
   {
+    "key": "ctrl+i",
+    "command": "projectManager.listProjects"
+  },
+  {
     "key": "cmd+r",
     "command": "composerMode.background"
   },
@@ -300,5 +304,5 @@
   {
     "key": "cmd+k",
     "command": "claude-vscode.sidebar.open"
-  },
+  }
 ]

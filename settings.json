@@ -1,6 +1,6 @@
 {
   // Window & UI
-  "window.zoomLevel": 2.5,
+  "window.zoomLevel": 2.8,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,
@@ -21,9 +21,9 @@
   // Editor appearance & behavior
   "editor.fontFamily": "VictorMono Nerd Font",
   //  "editor.fontSize": 12.5,
-  "editor.fontSize": 12,
+  "editor.fontSize": 11,
   //  "editor.lineHeight": 24,
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 20,
   //  "editor.letterSpacing": 0.5,
   "editor.letterSpacing": 1,
   "editor.fontWeight": "500",
@@ -154,7 +154,7 @@
     }
   },
   "window.autoDetectColorScheme": false,
-  "workbench.colorTheme": "Mayukai Mirage",
+  "workbench.colorTheme": "Mayukai Semantic Mirage",
   "workbench.activityBar.location": "hidden",
   "workbench.panel.showLabels": false,
   "git.showActionButton": false,
@@ -164,4 +164,6 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "claudeCode.focusView": true,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "claudeCode.hideOnboarding": true,
 }
