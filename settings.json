@@ -1,30 +1,22 @@
 {
   // Window & UI
-  "window.zoomLevel": 2.8,
+  "window.zoomLevel": 3,
   "window.newWindowDimensions": "maximized",
   "window.titleBarStyle": "custom",
   "workbench.navigationControl.enabled": false,
-  //  "workbench.editor.showTabs": "single",
+  "workbench.editor.empty.hint": "hidden",
   "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": "none",
   "window.commandCenter": false,
-  //  "workbench.panel.showLabels": false,
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": false,
-  // "breadcrumbs.enabled": true,
-  // "breadcrumbs.filePath": "last",
-  // "breadcrumbs.symbolPath": "off",
-  // "breadcrumbs.icons": true,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.tree.indent": 15,
   "explorer.compactFolders": false,
   // Editor appearance & behavior
   "editor.fontFamily": "VictorMono Nerd Font",
-  //  "editor.fontSize": 12.5,
-  "editor.fontSize": 11,
-  //  "editor.lineHeight": 24,
-  "editor.lineHeight": 20,
-  //  "editor.letterSpacing": 0.5,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 22,
   "editor.letterSpacing": 1,
   "editor.fontWeight": "500",
   "editor.guides.indentation": false,
@@ -39,12 +31,28 @@
   "editor.stickyScroll.enabled": false,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
     "source.organizeImports": "explicit"
   },
   "editor.rulers": [],
+  // Formatters
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   // Terminal
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontWeight": "bold",
   "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.tabs.enabled": false,
@@ -70,25 +78,16 @@
   "git.openRepositoryInParentFolders": "never",
   "git.decorations.enabled": false,
   // TypeScript/JavaScript specific
-  "typescript.preferences.includePackageJsonAutoImports": "auto",
-  "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.suggest.enabled": true,
-  "typescript.validate.enable": true,
-  "typescript.preferences.importModuleSpecifier": "relative",
-  "javascript.preferences.includePackageJsonAutoImports": "auto",
-  "javascript.suggest.autoImports": true,
+  "typescript.preferences.importModuleSpecifier": "shortest",
   "javascript.updateImportsOnFileMove.enabled": "always",
   // AWS/Pulumi specific
   "files.associations": {
-    "*.pulumi": "yaml",
     "*.tf": "hcl",
     "*.tfvars": "hcl"
   },
-  "yaml.format.enable": true,
-  "yaml.validate": true,
   "yaml.schemas": {
-    "https://json.schemastore.org/pulumi.json": "**/Pulumi.*.yaml"
+    "https://json.schemastore.org/pulumi.json": "**/Pulumi.yaml"
   },
   // Performance optimizations
   "files.watcherExclude": {
@@ -106,30 +105,29 @@
   // Node.js development optimizations
   "npm.enableScriptExplorer": true,
   "npm.exclude": "**/node_modules/**",
-  // Cursor specific
-  "cursor.composer.textSizeScale": 1.15,
-  "cursor.composer.shouldAutoScrollToBottom": false,
   // Extensions & other
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "hediet.vscode-drawio.resizeImages": null,
   "gitlens.ai.model": "gitkraken",
   "gitlens.ai.gitkraken.model": "gemini:gemini-2.5-flash",
   "workbench.agentsWindowButton.enabled": false,
   "workbench.colorCustomizations": {
     "terminal.background": "#151823",
     "panel.background": "#151823",
-    "panel.border": "#20242f",
     "terminal.border": "#20242f",
     "tab.activeBackground": "#1b2233",
     "tab.inactiveBackground": "#151823",
-    //
     "titleBar.activeBackground": "#151823",
     "titleBar.inactiveBackground": "#151823",
     "titleBar.activeForeground": "#6b728a",
     "titleBar.inactiveForeground": "#6b728a",
-    "titleBar.border": "#20242f",
     "window.activeBorder": "#000000",
+    // Input Search
+    "quickInputTitle.background": "#242732",
+    "input.border": "#242732",
+    "focusBorder": "#242732",
+    // borde
+    "surface.border": "#151823",
     "[Mayukai Mono]": {
       "editorGroupHeader.tabsBackground": "#151823",
       "editorGroupHeader.noTabsBackground": "#151823",
@@ -154,7 +152,7 @@
     }
   },
   "window.autoDetectColorScheme": false,
-  "workbench.colorTheme": "Mayukai Semantic Mirage",
+  "workbench.colorTheme": "Mayukai Mono",
   "workbench.activityBar.location": "hidden",
   "workbench.panel.showLabels": false,
   "git.showActionButton": false,
@@ -164,6 +162,16 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "claudeCode.focusView": true,
+  "editor.minimap.enabled": false,
+  "chat.titleBar.signIn.enabled": false,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.browser.showInTitleBar": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
   "workbench.editor.editorActionsLocation": "hidden",
+  "chat.viewSessions.enabled": false,
   "claudeCode.hideOnboarding": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never"
 }
